@@ -137,6 +137,7 @@ header nav a:hover{
 /* --------------------------------------------------------------------------------------------------- */
 
 .btn-play{
+    color: var(--darkColor);
     display: flex;
     align-items: center;
     gap: 10px;
@@ -250,3 +251,31 @@ header nav a:hover{
 .card-programas:hover{
     transform: scale(1.05);
 }
+
+/* --------------------------------------------------------------------------------------------------- */
+
+.jornal{
+    padding: 15px 2.5%;
+    color: var(--whiteColor);
+    height: 50vh;
+    background-color: var(--backgroundColor);
+    display: flex;
+    /* align-items: center; */
+}
+
+.jornalInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.h2-JornalStart{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jornalStart-icon{
+    font-size: 2rem;
+}
+
